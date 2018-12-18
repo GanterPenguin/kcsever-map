@@ -1,0 +1,185 @@
+.flex-head{
+  display: flex;
+  flex-direction: row;
+  margin:0;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.flex-sub-head {
+  padding: 0;
+  display: flex;
+}
+
+.head-item{
+  text-align: center;
+  flex: 1;
+  align-self: center;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.mainBlock{
+  min-height: 500px;
+}
+
+.map{
+  height: 100%;
+
+}
+.canvas{
+  width: 100%;
+  height: 100%;
+}
+.menu{
+  height: 100%;
+  float: left;
+  margin: 15px 0;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+button {
+  background-color: #42aaff;
+  background-size: contain;
+  font-weight: bold;
+  color: white;
+  padding: 4px;
+}
+
+button:hover{
+  background-color: #8ac4f3;
+}
+.link {
+  margin: -1px;
+  padding: 0;
+}
+
+.club>input{
+  width: 100%;
+}
+
+.club > input:nth-child(2) {
+  border-right: 0;
+}
+.club > input:nth-child(3) {
+  border-right: 0;
+}
+.club > input:nth-child(4) {
+  border-right: 0;
+}
+
+
+.club{
+  justify-content: space-between;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 0 !important;
+}
+
+.roomsContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.editArea{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.sings {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+.buttons>button{
+  margin-right: 5px;
+}
+
+.buttons>input{
+  margin-right: 5px;
+}
+
+.sings>p{
+  height: 22px;
+  margin: 0 0 22px;
+}
+
+.inputs{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs>input{
+  padding: 5px;
+  border: 1px solid #42aaff;
+  margin-bottom: 5px;
+  width: 12em;
+}
+
+.cabs {
+	min-width: 270px;
+	padding: 12px;
+	margin: 0 auto;
+  background: #fff;
+	border: 1px solid #8ac4f3;
+}
+
+.cabs button{
+  max-height: 40px;
+  padding: 0;
+}
+
+.collectives{
+	margin-top: 5px !important;
+	padding: 12px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #8ac4f3;
+}
+
+.nopadding{
+  padding: 0 !important;
+}
+
+#addButton{
+  min-width: 100px;
+  min-height: 38px;
+  margin: 10px;
+}
+
+.tabs>p {
+	margin: 0 0 5px;
+	line-height: 1.5;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+#elementsList{
+  margin-bottom: 3px;
+  border: 1px solid #42aaff;
+}
+
+.swal-button {
+  background-color: #42aaff;
+}
+
+.swal-button :hover {
+  background-color: #8ac4f3;
+}

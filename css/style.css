@@ -1,0 +1,135 @@
+:-moz-full-screen {
+  padding: 30px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+:-webkit-full-screen {
+  padding: 30px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+:fullscreen {
+  padding: 30px;
+  background-color: white;
+  width: 70%;
+  height: 80%;
+}
+
+:-moz-full-screen canvas {
+  background-color: white;
+  width: 100%;
+  
+  height: 80%;
+  max-height: none;
+}
+
+:-webkit-full-screen canvas {
+  background-color: white;
+  width: 100%;
+  
+  height: 80%;
+  max-height: none;
+}
+
+:fullscreen canvas {
+  background-color: white;
+  width: 100%;
+  
+  height: 80%;
+  max-height: none;
+}
+
+
+
+#fsButton{
+  z-index: -1;
+  float: left;
+}
+
+.canvas{
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: #42aaff;
+  background-size: contain;
+  width: 149px;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button:hover{
+  background-color: #8ac4f3;
+}
+
+.club{
+  width: 100%;
+  display: flex;
+  clear: both;
+}
+.link{
+  padding: 3px;
+  font-size: 32px !important;
+  color: #42aaff;
+}
+
+.link i:hover{
+  color: #8ac4f3;
+}
+
+.system{
+  z-index: -1;
+  float: left;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  cursor: default;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  z-index: 99999;
+  transition: opacity .5s;
+}
+
+.popup h2{
+  margin-top: 0;
+}
+
+.popup {
+  padding: 20px;
+  border: 2px solid #42aaff;
+  background-color: #fff;
+  display: inline-block;
+  left: 50%;
+  opacity: 0;
+  height: auto;
+  position: fixed;
+  text-align: justify;
+  top: 50%;
+  visibility: hidden;
+  z-index: 999998;
+  transform: translate(-50%, -50%);
+  transition: opacity .5s, top .5s;
+}
+.popup .close_window {
+  float: right;
+  font-size: 25px;
+  display: block;
+  cursor: pointer;
+}
+.popup .close_window:hover {
+  color: #888888;
+}
